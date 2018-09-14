@@ -21,5 +21,10 @@ namespace yoruba_part_of_speech_taging_system
         {
             taggingbox.Clear();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
