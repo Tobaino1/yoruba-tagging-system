@@ -63,13 +63,13 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(449, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
+            this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "SENTENCE";
+            this.label1.Text = "AWON ORO";
             // 
             // tokenbox
             // 
-            this.tokenbox.Location = new System.Drawing.Point(384, 389);
+            this.tokenbox.Location = new System.Drawing.Point(129, 448);
             this.tokenbox.Name = "tokenbox";
             this.tokenbox.Size = new System.Drawing.Size(652, 20);
             this.tokenbox.TabIndex = 4;
@@ -77,11 +77,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(326, 392);
+            this.label2.Location = new System.Drawing.Point(386, 432);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
+            this.label2.Size = new System.Drawing.Size(110, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "TOKENS :";
+            this.label2.Text = "AWON ORO AKORI :";
             // 
             // dataGridView1
             // 
@@ -99,10 +99,11 @@
             this.JJS,
             this.LS,
             this.MD});
-            this.dataGridView1.Location = new System.Drawing.Point(10, 428);
+            this.dataGridView1.Location = new System.Drawing.Point(10, 498);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1026, 184);
             this.dataGridView1.TabIndex = 6;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // CC
             // 
@@ -166,21 +167,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(49, 377);
+            this.button1.Location = new System.Drawing.Point(355, 378);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 42);
             this.button1.TabIndex = 7;
-            this.button1.Text = "PROCESS";
+            this.button1.Text = "SE AYEWO";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(168, 377);
+            this.button2.Location = new System.Drawing.Point(474, 378);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 42);
             this.button2.TabIndex = 8;
-            this.button2.Text = "ERASE";
+            this.button2.Text = "PA ORO RE";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -189,7 +190,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
-            this.ClientSize = new System.Drawing.Size(1085, 658);
+            this.ClientSize = new System.Drawing.Size(1085, 694);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
