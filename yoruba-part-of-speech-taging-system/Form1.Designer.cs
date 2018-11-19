@@ -70,8 +70,9 @@
             // tokenbox
             // 
             this.tokenbox.Location = new System.Drawing.Point(129, 448);
+            this.tokenbox.Multiline = true;
             this.tokenbox.Name = "tokenbox";
-            this.tokenbox.Size = new System.Drawing.Size(652, 20);
+            this.tokenbox.Size = new System.Drawing.Size(653, 44);
             this.tokenbox.TabIndex = 4;
             // 
             // label2
@@ -177,7 +178,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(474, 378);
+            this.button2.Location = new System.Drawing.Point(460, 378);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 42);
             this.button2.TabIndex = 8;
