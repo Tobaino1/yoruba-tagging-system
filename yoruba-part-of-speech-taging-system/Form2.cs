@@ -16,5 +16,10 @@ namespace yoruba_part_of_speech_taging_system
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
